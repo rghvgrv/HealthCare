@@ -1,3 +1,5 @@
+@import "compass/css3";
+
 * {
     margin: 0;
     padding: 0;
@@ -555,3 +557,4 @@ h3 {
     outline: none;
     box-sizing: border-box;
 }
+
