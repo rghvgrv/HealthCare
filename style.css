@@ -370,12 +370,13 @@ h3 {
 }
 
 
-/* .icons .fa{
+.icons{
     color:tomato;
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
-} */
+    size: 20%;
+}
 
 
 /* ----------About Us Page---------- */
