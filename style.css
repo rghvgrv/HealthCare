@@ -1,5 +1,4 @@
 @import "compass/css3";
-
 * {
     margin: 0;
     padding: 0;
@@ -93,6 +92,27 @@ nav img {
 }
 
 .hero-btn:hover {
+    border: 1px solid red;
+    background: red;
+    transition: 0.5s;
+}
+
+.hero-btn1 {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 15px 40px;
+    font-size: 18px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 10px;
+    height: 20px;
+    width: 100px;
+}
+
+.hero-btn1:hover {
     border: 1px solid red;
     background: red;
     transition: 0.5s;
@@ -369,9 +389,8 @@ h3 {
     font-weight: 600;
 }
 
-
-.icons{
-    color:tomato;
+.icons {
+    color: tomato;
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
@@ -558,4 +577,3 @@ h3 {
     outline: none;
     box-sizing: border-box;
 }
-
